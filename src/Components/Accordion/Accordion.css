@@ -1,0 +1,34 @@
+.base{
+    background-color: #09090B;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.line{
+    height: 1px;
+    width: 225px;
+    margin-top: -10px;
+    margin-left: 10px;
+    background-color: #27272A;
+}
+
+.symbol{
+    margin-left: 10px;
+}
+
+.ans{
+    text-align: justify;
+    width: 300px;
+}
