@@ -7,7 +7,7 @@ const Accordion = () => {
     const [selected, setSelected] = useState(null);
 
     const handleSelect = (getId) => {
-        setSelected(getId == selected ? null : getId)
+        setSelected(getId === selected ? null : getId)
         // alert(`${getId} selected `)
     }
 
